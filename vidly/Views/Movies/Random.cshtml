@@ -8,7 +8,7 @@
     var className = Model.Customers.Count > 1 ? "popular" : null;
 }
 
-<h2 class="@className">@Model.Movie.Name</h2>  @* Note: the 'at'Model gives back the model passed through view in the controller. *@
+<h2 class="@className">@Model.Movie.Name</h2>  @* Note: the @Model gives back the model passed through view in the controller. *@
 
 @if (Model.Customers.Count == 0)
 {
